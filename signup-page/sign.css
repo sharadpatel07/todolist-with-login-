@@ -1,0 +1,55 @@
+body{
+    height: 94vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 60vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgb(121, 121, 121);
+    box-shadow: 10px 10px 5px rgb(143, 143, 143);
+}
+
+hr{
+    width: 20vw;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(55, 83, 83);
+}
+label{
+    color: rgb(85, 85, 85);
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+input{
+    margin: 20px;
+    height: 15px;
+    width: 210px;
+    padding: 10px;
+}
+
+button{
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    font-size: larger;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(48, 48, 48);
+    margin-right: 20px;
+}
+
+a{
+    font-size: 19px;
+}

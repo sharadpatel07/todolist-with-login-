@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="main">
+        <div class="input">
+            <h1 id="heading"></h1>
+            <button onclick="logout()" id="tologout">logout</button>
+            <div>
+                <label for="">title: </label>
+                <input type="text" id="title" placeholder="title">
+            </div>
+            <div>
+                <label for="" id="label2">description: </label>
+                <textarea id="note" placeholder="notes"></textarea>
+            </div>
+            <button onclick="toSubmit()" id="submit">sumbit</button>
+            <button id="update">update</button>
+        </div>
+    </div>
+    <div id="printtodo">
+      
+    </div>
+    <div id="checkedData">
+        
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
